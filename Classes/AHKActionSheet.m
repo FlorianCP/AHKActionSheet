@@ -363,7 +363,6 @@ static const CGFloat kCancelButtonShadowHeightRatio = 0.333f;
         }
 
         self.window = nil;
-        [self.previousKeyWindow makeKeyAndVisible];
 
         if (completionHandler) {
             completionHandler(self);
